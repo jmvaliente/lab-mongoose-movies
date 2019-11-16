@@ -1,0 +1,11 @@
+<h1>Celebrities</h1>
+<div class="row">
+  {{#each celebrities}}
+  
+{{!-- <a><a href="/books/{{this.id}}">{{this.title}}</a></a> --}}
+    <div class="col-6 mb-3">
+      <h2>{{this.name}}</h2>
+      <a href="/celebrities/{{this.id}}"><button type="button" class="btn btn-primary">Details</button></a>
+    </div>
+  {{/each}}
+</div>

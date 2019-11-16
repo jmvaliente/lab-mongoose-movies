@@ -1,0 +1,16 @@
+{{celebrities.name}}
+
+<div class="list-group-item list-group-item-action">
+  <div class="d-flex w-100 justify-content-between">
+    <h5 class="mb-1">{{ celebrities.name }}</h5>
+    <p class="authors-wrapper">
+      
+      <small class="author-name">{{ celebrities.name }}</small>
+      
+    </p>
+  </div>
+  <p class="mb-1">{{ celebrities.catchPhrase }}</p>
+  <a href="/celebrities/{{ celebrities.id }}/edit" class="btn btn-success">
+    Edit
+  </a>
+</div>
